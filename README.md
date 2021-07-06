@@ -37,7 +37,7 @@ Edit settings file and replace appropriate values for your configuration
 
 Run bash script
 
-`sudo /opt/chip2mqtt/installservice.sh`
+`sudo sh /opt/chip2mqtt/installservice.sh`
 
 #### Run commands manually
 
