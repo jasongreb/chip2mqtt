@@ -28,6 +28,7 @@ Clone repo into opt
 Edit settings file and replace appropriate values for your configuration
 
 `cd /opt/chip2mqtt`
+
 `sudo nano /opt/chip2mqtt/settings.py`
 
 ### Install Service and Start
