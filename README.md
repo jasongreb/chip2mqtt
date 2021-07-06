@@ -4,6 +4,10 @@ The NTC C.H.I.P. was an inexpensive ARM-based board similar to the Raspberry Pi.
 into the board. It included WiFi, Bluetooth, and a single USB port. This application will poll certain system variables and report them over MQTT.
 This tool was primarily driven by the battery stats as the NTC C.H.I.P. also included a charge controller onboard.
 
+## Output
+
+This utility will output values into MQTT under the topic /chip/{hostname}/ with sub-topics battery, disk, cpu, and mem.
+
 ## Requirements
 
 While this utility is based on NTC C.H.I.P., it likely could be adapted for any system, including Raspberry Pi.
